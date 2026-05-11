@@ -6,35 +6,14 @@ sites:
     url: https://app.barnfront.com
   - name: Marketing site
     url: https://barnfront.com
-  # - name: API
-  #   url: https://app.barnfront.com/api/health
-  #   # TODO: uncomment once backend health endpoint is exposed in prod
-
-  - name: Cloud platform
-    url: https://status.cloud.google.com/
-  - name: CDN & DNS
-    url: https://www.cloudflarestatus.com/api/v2/status.json
-    body: '"indicator":"none"'
-  - name: CRM
-    url: https://status.hubspot.com/api/v2/status.json
-    body: '"indicator":"none"'
 
 status-website:
   cname: status.barnfront.com
   name: Barnfront Status
   introTitle: "**Barnfront** service status"
-  introMessage: Live status for Barnfront services and the providers we depend on. Subscribe via the RSS link below for updates.
+  introMessage: Live status for Barnfront services and the providers we depend on.
   navbar:
     - title: Status
       href: /
     - title: Barnfront
       href: https://barnfront.com
-  groups:
-    "Barnfront":
-      - Web app
-      - Marketing site
-      # - API
-    "Infrastructure":
-      - Cloud platform
-      - CDN & DNS
-      - CRM
