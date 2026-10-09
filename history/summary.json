@@ -4,23 +4,24 @@
     "url": "https://app.barnfront.com",
     "icon": "https://icons.duckduckgo.com/ip3/app.barnfront.com.ico",
     "slug": "web-app",
-    "status": "down",
-    "uptime": "99.58%",
-    "uptimeDay": "100.00%",
-    "uptimeWeek": "100.00%",
-    "uptimeMonth": "98.07%",
-    "uptimeYear": "99.58%",
+    "status": "up",
+    "uptime": "99.51%",
+    "uptimeDay": "88.72%",
+    "uptimeWeek": "98.39%",
+    "uptimeMonth": "97.69%",
+    "uptimeYear": "99.51%",
     "time": 257,
-    "timeDay": 370,
-    "timeWeek": 311,
-    "timeMonth": 301,
+    "timeDay": 268,
+    "timeWeek": 314,
+    "timeMonth": 297,
     "timeYear": 257,
     "dailyMinutesDown": {
       "2026-08-22": 28,
       "2026-08-24": 32,
       "2026-09-20": 145,
       "2026-09-21": 354,
-      "2026-09-27": 349
+      "2026-09-27": 349,
+      "2026-10-09": 162
     }
   },
   {
@@ -35,9 +36,9 @@
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
     "time": 601,
-    "timeDay": 613,
-    "timeWeek": 536,
-    "timeMonth": 600,
+    "timeDay": 453,
+    "timeWeek": 538,
+    "timeMonth": 593,
     "timeYear": 601,
     "dailyMinutesDown": {}
   }
