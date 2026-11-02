@@ -1,20 +1,22 @@
 owner: barnfront-com
 repo: upptime
 
-# Our app edge only accepts US traffic. GitHub-hosted runners sometimes land
-# outside the US and get a 403, which shows up as a false outage, so every
-# workflow runs on our self-hosted US runner (registered with this label).
-runner: upptime-us
-
+# The app edge only accepts US traffic. GitHub-hosted runners sometimes run
+# outside the US, so app checks send a per-environment token (repo secrets)
+# that the edge allows through; without it those runs get a false 403.
 sites:
   - name: Web app
     url: https://app.barnfront.com
+    headers:
+      - "X-Uptime-Token: $UPTIME_TOKEN_PROD"
   - name: Marketing site
     url: https://barnfront.com
   # URL comes from the DEV_URL repo secret so the hostname stays out of this
   # public repo and off the status page.
   - name: Dev
     url: $DEV_URL
+    headers:
+      - "X-Uptime-Token: $UPTIME_TOKEN_DEV"
   # - name: API
   #   url: https://app.barnfront.com/api/health
   #   # TODO: uncomment once backend health endpoint is exposed in prod
