@@ -10,11 +10,11 @@
     "uptimeWeek": "93.88%",
     "uptimeMonth": "96.12%",
     "uptimeYear": "98.97%",
-    "time": 264,
-    "timeDay": 227,
-    "timeWeek": 254,
-    "timeMonth": 301,
-    "timeYear": 264,
+    "time": 266,
+    "timeDay": 353,
+    "timeWeek": 273,
+    "timeMonth": 305,
+    "timeYear": 266,
     "dailyMinutesDown": {
       "2026-08-22": 28,
       "2026-08-24": 32,
@@ -40,11 +40,31 @@
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 605,
-    "timeDay": 640,
-    "timeWeek": 744,
-    "timeMonth": 631,
-    "timeYear": 605,
+    "time": 608,
+    "timeDay": 874,
+    "timeWeek": 790,
+    "timeMonth": 646,
+    "timeYear": 608,
     "dailyMinutesDown": {}
+  },
+  {
+    "name": "Dev",
+    "url": "$DEV_URL",
+    "icon": "https://icons.duckduckgo.com/ip3/null.ico",
+    "slug": "dev",
+    "status": "down",
+    "uptime": "0.00%",
+    "uptimeDay": "0.00%",
+    "uptimeWeek": "0.00%",
+    "uptimeMonth": "0.00%",
+    "uptimeYear": "0.00%",
+    "time": 0,
+    "timeDay": 0,
+    "timeWeek": 0,
+    "timeMonth": 0,
+    "timeYear": 0,
+    "dailyMinutesDown": {
+      "2026-11-03": 14
+    }
   }
 ]
